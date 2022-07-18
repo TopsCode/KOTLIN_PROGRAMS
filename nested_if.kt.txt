@@ -1,0 +1,12 @@
+fun main(args: Array<String>) {
+    val a = 6
+ 
+    if(a%2==0) {
+        println("$a is even number.")
+        if(a%5==0) {
+            println("$a is divisible by 5.")
+        } else if(a%3==0) {
+            println("$a is divisible by 3.")
+        }
+    }
+}
